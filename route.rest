@@ -1,0 +1,35 @@
+GET  http://localhost:8080/get_all_customers
+
+
+###
+
+
+POST  http://localhost:8080/create_customer
+content-type: application/json
+
+{
+  "name":"forth",
+  "age":"24",
+  "phone":"1234",
+  "email":"qwerti.com"
+}
+
+
+###
+
+
+PUT  http://localhost:8080/update_customer/6200b7858f889117342bb687
+content-type: application/json
+
+{
+  "name":"third",
+  "age":"22",
+  "phone":"12345",
+  "email":"qwerti@3.com"
+}
+
+
+
+###
+
+DELETE  http://localhost:8080/delete_customer/6200d3c38267952c384edfff
